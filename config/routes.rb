@@ -1,19 +1,17 @@
 MyApp::Application.routes.draw do
-  get "users/new"
-
-  get "users/edit"
 
   resources :articles do
     resources :comments
   end
 
-<<<<<<< HEAD
   resources :users
-=======
+
   resources :user_sessions
->>>>>>> working
+
   
   get "welcome/index"
+
+  get "sessions/new"
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

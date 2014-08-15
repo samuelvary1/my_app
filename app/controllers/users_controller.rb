@@ -12,10 +12,7 @@ class UsersController < ApplicationController
   		render :action => 'new'
   	end
   end
-<<<<<<< HEAD
-=======
   
->>>>>>> working
   def edit
   end
 end
