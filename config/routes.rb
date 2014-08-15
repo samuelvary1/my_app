@@ -1,7 +1,13 @@
 MyApp::Application.routes.draw do
+  get "users/new"
+
+  get "users/edit"
+
   resources :articles do
     resources :comments
   end
+
+  resources :users
   
   get "welcome/index"
 
