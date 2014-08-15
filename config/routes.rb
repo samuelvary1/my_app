@@ -7,7 +7,11 @@ MyApp::Application.routes.draw do
     resources :comments
   end
 
+<<<<<<< HEAD
   resources :users
+=======
+  resources :user_sessions
+>>>>>>> working
   
   get "welcome/index"
 
