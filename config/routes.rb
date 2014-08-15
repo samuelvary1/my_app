@@ -2,6 +2,8 @@ MyApp::Application.routes.draw do
   resources :articles do
     resources :comments
   end
+
+  resources :user_sessions
   
   get "welcome/index"
 
